@@ -11,7 +11,6 @@ class DockingStation
 
     def dock(bike)
         @bike = bike 
-        return bike
     end     
 
 
