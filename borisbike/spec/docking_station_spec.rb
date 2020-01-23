@@ -22,7 +22,7 @@ describe DockingStation do
     end     
 
     it 'should return error when asked for a bike when there is no bike' do 
-        expect {station.release_bike}.to raise_error("message")
+        expect {station.release_bike.release_bike}.to raise_error("message")
     end    
 
 end
