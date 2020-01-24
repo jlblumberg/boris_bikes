@@ -13,13 +13,13 @@ class DockingStation
         raise "message"
       else 
         released = Bike.new 
-        @available_bikes = @available_bikes - 1
+        @available_bikes -= 1
         return released 
      end
     end
 
     def dock(bike)
-        @bike = bike 
+      @bike = bike 
     end     
 
 
