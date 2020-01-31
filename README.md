@@ -132,8 +132,8 @@ I'd like docking stations to accept returning bikes (broken or not).
 |--------------------|---------------------------------------------------------------------------------|
 | DockingStation.new | Creates a new instance of a docking station                                     |
 | .dock(bike)        | docks a bike in the station                                                     |
-| .release           | releases a docked bike from the station if one is available                     |
-| .full?             | returns true if the bike dock is full                                           |
+| .release_bike     | releases a docked bike from the station if one is available                     |
+| .full?            | returns true if the bike dock is full                                            |
 | .empty?            | returns true if the bike dock is empty                                          |
 
 
