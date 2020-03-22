@@ -131,6 +131,6 @@ I'd like docking stations to accept returning bikes (broken or not).
 | .empty?            | returns true if the bike dock is empty                                          |
 
 
-## <a name="Future Work">Future Work</a>
+## <a name="Future_Work">Future Work</a>
 
 In the future I would like to add functionality to only release bikes if they are not broken, and further to accept bikes whether they are broken or working. Taking that one step further, I would add a repair system to fix broken bikes.
