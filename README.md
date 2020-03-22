@@ -1,28 +1,22 @@
-
-### [Makers Academy](http://www.makersacademy.com) - Week 1 Pair Programming Project
+### [Makers Academy](http://www.makersacademy.com) - Week 1 Project
 
 Boris Bike Challenge 
 -
 
-[Outline](#Outline) | [Task](#Task) | [Installation Instructions](#Installation) | [Feature Tests](#Feature_Tests) | [User Stories](#Story) | [Objects & Methods](#Methods) | [Future Work](#Future_Work)
+[Outline](#Outline) | [Installation Instructions](#Installation) | [Feature Tests](#Feature_Tests) | [User Stories](#Story) | [Objects & Methods](#Methods) | [Future Work](#Future_Work)
 
 
 ## <a name="Outline">Outline</a>
  
-This is the Week_1 pairing challenge project, Boris Bikes! 🚲
-
-We're going to create a network of docking stations and bikes that anyone can use by building a program that will emulate all the docking stations, bikes, and infrastructure required.
-
-## <a name="Task">The Task</a>
-At the outset of the project we we’re given several `User Stories` which are listed below. We started to determine which parts of the `User Story` are `Objects` and which are `Methods`. As in all TDD we created a test for a unit that we wanted and then wrote the code to pass those tests.
+Create a network of docking stations and bikes that anyone can use by building a program that will emulate all the docking stations, bikes, and infrastructure required.
 
 ## <a name="Installation">Installation Instructions</a>
 
-Clone the repository from github then change directory into it.
+Clone this repository and cd into it.
 
 ```
-$ git clone git@github.com:BenSheridanEdwards/Boris_Bikes.git
-$ cd Boris_Bikes
+$ git clone https://github.com/jlblumberg/boris_bikes.git
+$ cd boris_bikes
 ```
 Load dependencies with bundle.
 ```
@@ -39,7 +33,7 @@ $ irb
  => true
 ```
 
-## <a name="Feature_Tests">Feature Tests (How it works)</a>
+## <a name="Feature_Tests">Feature Tests</a>
 
 ```
 2.6.3 :003 > station = DockingStation.new
